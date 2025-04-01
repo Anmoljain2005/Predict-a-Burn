@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gemstone Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <a href="https://github.com/Anmoljain2005/Gem_stone_Price_Prediction" class="top-left-link" target="_blank">GitHub Repository Link</a>
+    <h1>Gemstone Price Prediction - Anmol Jain</h1>
+    <img src="{{url_for('static', filename='/Image/your_profile_pic.jpg')}}" alt="Your Profile Picture" class="profile">
+    <div class="form-box">
+    <form action="{{url_for('predict_datapoint')}}" method="POST">
+        <div class="form-group">
+            <label for="Height">Height:</label>
+            <input type="text" id="Height" name="Height" placeholder="Enter Height value (float)">
+        </div>
+    
+        <div class="form-group">
+            <label for="Weight">Weight:</label>
+            <input type="text" id="Weight" name="Weight" placeholder="Enter Weight value (float)">
+        </div>
+
+        <div class="form-group">  
+            <label for="Duration">Duration:</label>
+            <input type="text" id="Duration" name="Duration" placeholder="Enter Duration value (float)">
+        </div>
+        
+        <div class="form-group">
+            <label for="Heart_Rate">Heart_Rate:</label>
+            <input type="text" id="Heart_Rate" name="Heart_Rate" placeholder="Enter Heart_Rate value (float)">
+        </div>
+      
+        <div class="form-group">
+            <label for="Body_Temp">Body_Temp:</label>
+            <input type="text" id="Body_Temp" name="Body_Temp" placeholder="Enter Body_Temp value (float)">
+        </div>  
+
+        <div class="form-group">
+            <label for="Age">Age:</label>
+            <input type="text" id="Age" name="Age" placeholder="Enter Age value (int)">
+        </div> 
+      
+    <div class="form-group">
+      <label for="Gender">Gender:</label>
+      <select id="Gender" name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+    </div>
+    
+    <div style="clear:both;"></div>
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+    <div>      
+    <h2>
+      Predicted Calories Burnt is : {{ results }}
+    </h2>
+  </body>
+</html>
