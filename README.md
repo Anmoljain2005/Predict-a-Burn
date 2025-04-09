@@ -1,4 +1,4 @@
-# Predict-a-Burn- Calories Burnt Prediction Web Application
+# Predict-a-Burn: Calories Burnt Prediction Web Application
 
 **Predict-a-Burn** is a machine learning-based web application designed to predict the number of calories burned during various physical activities. By analyzing user input, the model provides accurate calorie expenditure estimates, aiding users in tracking and managing their fitness goals effectively.
 
