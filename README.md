@@ -1,6 +1,6 @@
 # Predict-a-Burn- Calories Burnt Prediction Web Application
 
-**Predict-a-Burn** is a machine learning-based web application designed to predict the number of calories burned during various physical activities. By analyzing user input, the model provides accurate calorie expenditure estimates, aiding users in tracking and managing their fitness goals effectively.
+**Predict-a-Burn** is a machine learning-based web application designed to predict the number of calories burned during various physical activities. By analyzing user input, the model provides accurate calorie expenditure estimates, aiding users in tracking and managing their fitness goals effectively.
 
 ## Table of Contents
 
@@ -15,9 +15,9 @@
 
 ## Features
 
-- **User-Friendly Interface**: Intuitive design for seamless user experience.
-- **Accurate Predictions**: Utilizes advanced machine learning algorithms to estimate calorie burn.
-- **Customizable Inputs**: Users can input various parameters such as activity type, duration, and intensity.
+- **User-Friendly Interface**: Intuitive design for seamless user experience.
+- **Accurate Predictions**: Utilizes advanced machine learning algorithms to estimate calorie burn.
+- **Customizable Inputs**: Users can input various parameters such as activity type, duration, and intensity.
 
 ## Installation
 
@@ -27,19 +27,16 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/Anmoljain2005/Predict-a-Burn.git
    ```
-
 
 2. **Navigate to the Project Directory**:
    ```bash
    cd Predict-a-Burn
    ```
-
 
 3. **Install Required Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-
 
 ## Usage
 
@@ -49,7 +46,6 @@ To run the application:
 ```bash
 python application.py
 ```
-
 
 Then, open your web browser and go to `http://localhost:5000` to access the application.
 
