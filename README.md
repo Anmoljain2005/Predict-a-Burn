@@ -25,7 +25,6 @@ Here's a look at the Predict-a-Burn web app in action:
 
 ![Web Interface Screenshot](static\Image\Frontend_SS.png)
 
-
 ## Installation
 
 To set up the project locally, follow these steps:
