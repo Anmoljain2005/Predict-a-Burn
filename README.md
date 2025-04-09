@@ -47,7 +47,7 @@ To run the application:
 python application.py
 ```
 
-Then, open your web browser and go to `http://localhost:5000` to access the application.
+Then, open your web browser and go to `http://localhost:8000` to access the application.
 
 ## Project Structure
 
