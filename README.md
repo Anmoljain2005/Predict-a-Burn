@@ -88,8 +88,6 @@ The application leverages the CatBoost machine learning algorithm to predict cal
 | **Salaj Bansal** | [Salaj Bansal](https://github.com/SalajBansal05) | 230002063 |  
 | **Nidarsana M** | [Nidarsana M](https://github.com/Nidarsana02) | 230004031 |  
 
----
-
 ## Acknowledgements
 
 This Prediction Model is part of the course **MA-212: Regression Analysis** under the guidance of **Dr. Mohd. Arshad**.
