@@ -19,6 +19,13 @@
 - **Accurate Predictions**: Utilizes advanced machine learning algorithms to estimate calorie burn.
 - **Customizable Inputs**: Users can input various parameters such as activity type, duration, and intensity.
 
+## 🔥 Interface Preview
+
+Here's a look at the Predict-a-Burn web app in action:
+
+![Web Interface Screenshot](static\Image\Frontend_SS.png)
+
+
 ## Installation
 
 To set up the project locally, follow these steps:
