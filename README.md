@@ -23,7 +23,7 @@
 
 Here's a look at the Predict-a-Burn web app in action:
 
-![Web Interface Screenshot](static\Image\Frontend_SS.png)
+![Web Interface Screenshot](static/Image/Frontend_SS.png)
 
 ## Installation
 
