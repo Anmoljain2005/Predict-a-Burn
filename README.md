@@ -47,7 +47,7 @@ To run the application:
 python application.py
 ```
 
-Then, open your web browser and go to `http://localhost:8000` to access the application.
+Then, open your web browser and go to `http://localhost:8000` to access the application.
 
 ## Project Structure
 
@@ -65,21 +65,20 @@ Predict-a-Burn/
 ├── requirements.txt
 └── setup.py
 ```
-
 
-- **artifacts/**: Contains saved models and other artifacts.
-- **catboost_info/**: Directory related to CatBoost model information.
-- **notebook/**: Jupyter notebooks for exploratory data analysis and model development.
-- **src/**: Source code for the application.
-- **static/**: Static files like CSS, JavaScript, and images.
-- **templates/**: HTML templates for the web application.
-- **application.py**: Main Flask application file.
-- **requirements.txt**: List of Python dependencies.
-- **setup.py**: Setup script for packaging.
+- **artifacts/**: Contains saved models and other artifacts.
+- **catboost_info/**: Directory related to CatBoost model information.
+- **notebook/**: Jupyter notebooks for exploratory data analysis and model development.
+- **src/**: Source code for the application.
+- **static/**: Static files like CSS, JavaScript, and images.
+- **templates/**: HTML templates for the web application.
+- **application.py**: Main Flask application file.
+- **requirements.txt**: List of Python dependencies.
+- **setup.py**: Setup script for packaging.
 
 ## Model Information
 
-The application leverages the CatBoost machine learning algorithm to predict calorie expenditure based on user inputs. The model is trained on a diverse dataset to ensure accuracy across various activities and user profiles.
+The application leverages the CatBoost machine learning algorithm to predict calorie expenditure based on user inputs. The model is trained on a diverse dataset to ensure accuracy across various activities and user profiles.
 
 ## Contributors
 
